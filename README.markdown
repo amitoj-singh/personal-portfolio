@@ -4,4 +4,4 @@
 
 This is hosted using cloud platform heroku
 
-[view personal portfolio](amitoj.codes)
+[view personal portfolio](http://amitoj.codes)
