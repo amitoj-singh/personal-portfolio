@@ -2,6 +2,6 @@
 
 ## This is my online resume
 
-This is hosted using cloud platform heroku
+It hosted using cloud platform heroku as a PHP app
 
-[view personal portfolio](http://amitoj.codes)
+[view my personal portfolio](http://amitoj.codes)
