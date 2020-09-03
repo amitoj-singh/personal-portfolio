@@ -1,11 +1,10 @@
-RewriteEngine On
+##Force SSL 
 
-# If we receive a forwarded http request from a proxy...
-RewriteCond %{HTTP:X-Forwarded-Proto} = http [OR]
+#Normal way (in case you need to deploy to NON-heroku)
+RewriteCond %{HTTPS} !=on
 
-# ...or just a plain old http request directly from the client
-RewriteCond %{HTTP:X-Forwarded-Proto} = ""
-RewriteCond %{HTTPS} != on
+#Heroku way
+RewriteCond %{HTTP:X-Forwarded-Proto} !https 
 
-# Redirect to https version
+#If neither above conditions are met, redirect to https
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
