@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://use.fontawesome.com/f310665c3c.js"></script>
+    <!-- fontawesome library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-- stylesheets -->
     <link rel="stylesheet" type="text/css" href="style.css">
+    
     <title>My portfolio</title>
 </head>
 <body>
@@ -59,35 +62,43 @@
         <p>How do you take your coffee?</p>
         <div class="contact-links">
             <a href="https://www.facebook.com/terrorofA" target="_blank" class="btn contact-details">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fab fa-facebook-f"></i>
                 Facebook
             </a>
             <a href="https://github.com/amitoj-singh" id="profile-link" class="btn contact-details" target="_blank">
-                <i class="fa fa-github" aria-hidden="true"></i>
+                <i class="fab fa-github"></i>
                 Github
             </a>
             <a href="https://www.linkedin.com/in/amitoj-singh-762365168/" class="btn contact-details" target="_blank">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i class="fab fa-linkedin-in"></i>
                 Linkedin
             </a>
             <a href="mailto:amitoj.98@gmail.com" class="btn contact-details">
-                <i class="fa fa-at" aria-hidden="true"></i>
+                <i class="fas fa-at"></i>
                 Send a mail
             </a>
             <a href="tel:9023434518" class="btn contact-details">
-                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <i class="fas fa-mobile-alt"></i>
                 Call me
             </a>
-        </div>
+        </div>        
     </section>
     <footer>
-        <p>
-            <i class="fa fa-copyright" aria-hidden="true"></i>
-            All rights reserved.
-        </p>
-        <p>
-            created by: Amitoj Singh
-        </p>
+        <div class="footer-container">
+            <p>
+                <i class="far fa-copyright"></i>
+                All rights reserved <span class="copyright-year"></span>
+            </p>
+            <p>created by: Amitoj Singh</p>
+        </div>        
     </footer>
+    <article class="fork">
+        <a href="https://github.com/amitoj-singh/personal-portfolio" target="_blank" class="fork-link">
+            <i class="fas fa-code-branch"></i>
+            <span class="fork-text">fork on github</span>
+        </a>
+    </article>
+    <script src="javascript/app.js"></script>
+    <script src="javascript/color_flipper.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@
 
 :root {
     --nav-background: #9F9760;
-    --main-backgrund: #B6ECB5;
+    --main-background: #B6ECB5;
     --projects-background: #cacaca;
     --menu-text: #e6e6e6;
     --menu-hover: #60689F;
@@ -52,6 +52,11 @@ header {
     z-index: 11;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 nav {
     display: flex;
     justify-content: flex-end;
@@ -60,7 +65,6 @@ nav {
 }
 
 .nav-link {
-    text-decoration: none;
     color: var(--menu-text);
     padding: 20px 20px;
 }
@@ -70,7 +74,7 @@ nav {
 }
 
 .welcome-section {
-    background: var(--main-backgrund);
+    background: var(--main-background);
     position: relative;
     height: 100vh;
     display: flex;
@@ -128,7 +132,7 @@ h2 {
 }
 
 .project-details p {
-    background: var(--main-backgrund);
+    background: var(--main-background);
     margin-top: -7px;
     padding: 10px;
 }
@@ -150,7 +154,7 @@ h2 {
 }
 
 .show-all-button a {
-    background: var(--main-backgrund);
+    background: var(--main-background);
 }
 
 .show-all-button i {
@@ -173,7 +177,7 @@ h2 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background: var(--main-backgrund);
+    background: var(--main-background);
 }
 
 .contact-section p {
@@ -195,10 +199,45 @@ h2 {
 }
 
 footer {
-    background: var(--main-backgrund);
+    background: var(--main-background);
     border-top: 4px solid var(--nav-background);
     font-weight: 300;
+    
+    padding: 40px;
+}
+
+.footer-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 50px;
+    margin: -10px;
+}
+
+.footer-container p {
+    padding: 10px;
+}
+
+.fork {
+    position: fixed;
+    bottom: 49px;
+    right: -82px;
+    min-width: 300px;
+    background-color: white;
+    transform: rotate(-45deg);
+    text-align: center;
+}
+
+.fa-ribbon, .fa-code-branch {
+    color: goldenrod;
+}
+
+.fork-text {
+    font-size: 0.7em;
+}
+
+@media(max-width: 650px) {
+    .fork {
+        bottom: 32px;
+        right: -108px;
+    }
 }
