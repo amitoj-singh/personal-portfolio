@@ -1,6 +1,6 @@
 # Personal portfolio
 
-[view personal portfolio](https://amitoj.codes/)
+[view personal portfolio](https://amitoj-singh.me/)
 
 It is hosted on heroku and linked to this GitHub repo for automatic deployment.
 
