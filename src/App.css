@@ -1,0 +1,44 @@
+.img-container {
+  max-width: 150%;
+  overflow: hidden;
+  max-height: 100vh;
+
+}
+
+.img-container img {
+  max-width: inherit;
+}
+
+.btn {
+  border-radius: 0.25rem;
+  display: inline-block;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  padding: 1em 3em;
+  transition: all .3s ease-in;
+  background-color: #ff6663;
+  color: rgba(252, 249, 249, 0.986);
+}
+
+.intro .btn{
+  /* font-size: 1.5em; */
+  font-weight: 500;
+}
+
+.intro .btn:hover {
+  color: rgba(252, 249, 249, 0.986);
+  background-color: #f84f4c;
+}
+
+.intro h1 {
+  font-size: 1.5em;
+}
+
+.intro p{
+  /* font-size: 1.5em; */
+}
+
+.icons {
+  width: 2em;
+}
