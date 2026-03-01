@@ -3,7 +3,7 @@
   "description": "Portfolio of Amitoj Singh",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://amitoj-singh.github.io/personal-portfolio/",
+  "homepage": "https://amitoj-singh.me/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
