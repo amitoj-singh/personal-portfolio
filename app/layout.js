@@ -10,9 +10,27 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Amitoj Singh - Software Developer",
+  title: "Amitoj Singh - Software Developer",
   description:
-    "This is the portfolio of Amitoj Singh. I am a backend developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "Backend developer specializing in scalable systems and integrations.",
+  
+    openGraph: {
+    title: "Amitoj Singh - Software Developer",
+    description:
+      "Backend developer specializing in scalable systems and integrations.",
+    url: "https://amitoj-singh.me/",
+    siteName: "Amitoj Singh Portfolio",
+    images: [
+      {
+        url: "../public/og-profile.png",
+        width: 1200,
+        height: 630,
+        alt: "Amitoj Singh Portfolio",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  }
 };
 
 export default function RootLayout({ children }) {
