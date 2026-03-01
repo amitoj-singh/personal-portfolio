@@ -22,7 +22,7 @@ export const metadata = {
     siteName: "Amitoj Singh Portfolio",
     images: [
       {
-        url: "../public/og-profile.png",
+        url: "https://amitoj-singh.me/og-profile.png",
         width: 1200,
         height: 630,
         alt: "Amitoj Singh Portfolio",
