@@ -7,7 +7,7 @@ export const educations = [
   },
   {
     id: 2,
-    title: "Higher School",
+    title: "High School",
     duration: "2014 - 2016",
     institution: "Kendriya Vidayalaya, Patiala",
   }
